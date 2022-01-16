@@ -1,7 +1,11 @@
+function startQuiz()
+var startQuiz = document.getElementById(start-button);
 var timeEl = document.getElementById("timer");
 var secondsRemaining = 75;
 
-function setTime() {
+startQuiz.addEventListener("click",startQuiz);
+
+function setTime() { 
     timerInterval = setInterval(function() {
         secondsRemaining--;
         if(!secondsRemaining > 0) {

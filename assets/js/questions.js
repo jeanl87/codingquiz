@@ -39,4 +39,14 @@ var question = [
     ],
     answer: "",
   },
+  {
+    quesiton: 
+    "A very useful tool used during development and debugging for printing content to the debugger is:",
+    choices: [
+      "1.JavaScript",
+      "2.terminal/bash",
+      "3.for loops",
+      "4.console log",
+    ],
+  }
 ];
