@@ -1,9 +1,9 @@
-function startQuiz()
-var startQuiz = document.getElementById(start-button);
-var timeEl = document.getElementById("timer");
-var secondsRemaining = 75;
+//function startQuiz()
+//var startQuiz = document.getElementById(start-button);
+//var timeEl = document.getElementById("timer");
+//var secondsRemaining = 75;
 
-startQuiz.addEventListener("click",startQuiz);
+//startQuiz.addEventListener("click",startQuiz);
 
 function setTime() { 
     timerInterval = setInterval(function() {
