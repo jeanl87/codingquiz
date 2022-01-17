@@ -1,21 +1,18 @@
 var questionsEl = document.querySelector("#questions"); 
 var timeEl = document.querySelector("#time");
 var choicesEl = document.querySelector("#choices");
-var startButton= document.getElementById("#startQuiz");
+var startButton= document.getElementById("start-btn");
 var secondsRemaining = 75;
 
-startButton.addEventListener("click", startQuiz); 
 
-document.querySelector("#startQuiz").onlick = function (event) {
-    if (event === null){
-        return; 
-    }
-
+// document.querySelector("#startQuiz").onlick = function (event) {
+//     if (event === null){
+//         return; 
+//     }
+// }
 choicesEl.onclick = questionsEl; 
 
-choicesEl.appendChild(choices); 
-
-
+//choicesEl.appendChild(choices); 
 
 function setTime() { 
     timerInterval = setInterval(function() {
@@ -26,4 +23,13 @@ function setTime() {
         timeEl.textContent = "Time" + secondsRemaining.toString().padStart("0");
         checkTimeLeft();
     }, 1000);
+}
 //timerId = setInterval(secondsRemaining, 1000);()
+
+function startQuiz() {
+    //to  be done
+    //alert("The startQuiz button is clicked");
+    //console.log( "start Quiz button is clicked")
+}
+
+startButton.onclick = startQuiz;
