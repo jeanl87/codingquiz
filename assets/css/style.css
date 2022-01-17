@@ -8,3 +8,12 @@ p {
   padding: 20px;
   padding-top: 0px;
 }
+.highscore {
+  float: left;
+  position: absolute;
+}
+.timer {
+  justify-content: right;
+  float: right;
+  position: absolute;
+}

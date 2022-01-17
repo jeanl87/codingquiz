@@ -11,33 +11,33 @@ var question = [
   {
     question: "The conditions in an if/else statement is enclosed with ____.",
     choices: [
-        "1.curly", 
-        "2.quotes", 
-        "3.parentheses", 
-        "4.square brackets"
+        "curly", 
+        "quotes", 
+        "parentheses", 
+        "square brackets"
     ],
-    answer: "",
+    answer: "parentheses",
   },
   {
     question: "Arrays in JavaScript can be used to store _____.",
     choices: [
-      "1.numbers and strings",
-      "2.other arrays",
-      "3.booleans",
-      "4.all of the above",
+      "numbers and strings",
+      "other arrays",
+      "booleans",
+      "all of the above",
     ],
-    answer: "",
+    answer: "all of the above",
   },
   {
     question:
       "String values must be enclosed within _____ when being assigned to variables:",
     choices: [
-        "1.commas", 
-        "2.curly brackets", 
-        "3.quotes", 
-        "4.parentheses"
+        "commas", 
+        "curly brackets", 
+        "quotes", 
+        "parentheses"
     ],
-    answer: "",
+    answer: "quotes",
   },
   {
     quesiton: 
@@ -48,5 +48,6 @@ var question = [
       "3.for loops",
       "4.console log",
     ],
+    answer: "console log",
   }
 ];
