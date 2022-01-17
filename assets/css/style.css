@@ -13,7 +13,8 @@ p {
   position: absolute;
 }
 .timer {
-  justify-content: right;
   float: right;
-  position: absolute;
+}
+.start-btn {
+  justify-content: center;
 }

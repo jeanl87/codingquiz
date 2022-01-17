@@ -1,11 +1,21 @@
 var questionsEl = document.querySelector("#questions"); 
 var timeEl = document.querySelector("#time");
 var choicesEl = document.querySelector("#choices");
-//var startQuiz = document.getElementById(start-button);
-//var timeEl = document.getElementById("timer");
+var startButton= document.getElementById("#startQuiz");
 var secondsRemaining = 75;
 
-//startQuiz.addEventListener("click",startQuiz);
+startButton.addEventListener("click", startQuiz); 
+
+document.querySelector("#startQuiz").onlick = function (event) {
+    if (event === null){
+        return; 
+    }
+
+choicesEl.onclick = questionsEl; 
+
+choicesEl.appendChild(choices); 
+
+
 
 function setTime() { 
     timerInterval = setInterval(function() {
@@ -16,7 +26,4 @@ function setTime() {
         timeEl.textContent = "Time" + secondsRemaining.toString().padStart("0");
         checkTimeLeft();
     }, 1000);
-}
-timerId = setInterval(secondsRemaining, 1000); 
-
-timerEl.textContent = time; 
+//timerId = setInterval(secondsRemaining, 1000);()
